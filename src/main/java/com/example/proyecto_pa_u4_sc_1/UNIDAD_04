@@ -1,0 +1,114 @@
+***********************************************************************
+****************************** UNIDAD 04 ******************************
+***********************************************************************
+
+PARADIGA 				Manera de ver las cosas (Forma de Pensar)
+POO						Dentro de un Paradigma mayor PARADIGMA IMPERATIVO
+
+PARADIGMA IMPERATIVO	trata de indicar medianrte algoritmos precisos,  especficos, finitos 
+						y determinados. el paso a paso de una funcionalidad
+						└> PoO
+
+PARADIGMA DECLARATIVO	Se declaran las necesidades/ intenciones de funcionalidad, y el compilador se encarga 
+						de transformarlo a un algoritmo
+						└> El lenguale mas conocido SQL	
+						└> Paradigma Funcional 	-> codigo masa practico y sencillo 
+						
+NOTA: Clojure lenguajes 100% funcionales, mas relevantes 
+
+JAVA desde la version 8 permite utilizar paradigma funcional mediante Interfaces Funcionales (core)
+
+Las INTERFACES FUNCIONALES  tienen un solo Contrato, y solo expresa una Funcionalidad
+
+INTERFAZ FUNCIONAL		Se pueden utilizar de dos maneras:
+							└> Clases que implementan esa Interfas
+							└> Lambdas
+							
+LAMBDA					una Lambda esta conformda por 3 parametros
+
+									expresiones lambda
+										^
+										|
+						parametros  ----------> expresiones
+						
+						a-> EXPRESION
+						(a,b) -> EXPRESION
+						(a,b,...,n) -> {
+							EXPRESION 1
+							EXPRESION 2
+								.
+								.
+								.
+							EXPRESION n
+						}
+Existen varias Interfaces Funcionales 
+	└>  Interfaces Funcionales SUPLIER:
+			La Funcion no necesita un argumento, pero si devolvera un tipo de dato determinado
+			
+	└>  Interfaces Funcionales CONSUMER:
+			la funcion recibe una variable generica, realiza una operacion y no regresa nada
+			
+	└>  Interfaces Funcionales PREDICATE:
+			la Funcion recibe un Argumento, lo procesa y devuelve un Booleano
+			
+	└>  Interfaces Funcionales FUNCTION:
+			La Funcion recibe un tipo de argumento, lo procesa y devuelve OTRO tipo de dato
+			
+	└>  Interfaces Funcionales UNARYOPERATOR:
+			La Funcion recibe un tipo de argumento, lo procesa y devuelve EL MISMO tipo de dato
+			
+NOTA:	Cuando un Metodo recibe una Interfaz Funcional se lo conoce como METODOS HIGH ORDER
+
+La programacion en paralelo (Multi-Thread) no es aplicable en todo lado 
+  
+una libreria que implementa la clase THREAD es La clase Streams	
+
+los hilos estan relacionados a los procesadores de un computador 
+
+esta programacion siempre viene de una lista 
+
+hay que disernir cando trabajar en paralelo, cuando se requiere hacer algo en un orden especifico (secuencial )no es recomendable
+cuando se los procesos se pueden hacer de manera asincrona si aplica
+
+
+cuando un objeto de base de datos (TABLA) Pasa a REPOSITORY (entidad) pasa a Service (BUSSINES OBJECT ) pasa a controlador (RECURSO) pasa a la visat (MODELO)
+
+la vista envia una peticion a el controler con todas sus subcapas, y retorna otra vista
+es el patron MVC
+usa el lenguaje de marcado HTML5
+
+HTML 			estructura y contenido de la pagina web		etiquetas
+CSS 			estilo y diseño de una pagina web			archivo .css hoja de archivo
+JavaScript		comportamiento								HOJA CON FORMATO.JS
+
+PETICION 			REQUEST
+VUELTA				RESPONSE
+
+
+LOS MEJORES FRAMEWORKS SON LOS BASADOS EN JAVASCRIPT 
+VUE.JS
+REACT.JS
+ANGULAR
+
+sPRING TIENE su propio framework THYMELEAS 		permite crear templates para vistas html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+							
