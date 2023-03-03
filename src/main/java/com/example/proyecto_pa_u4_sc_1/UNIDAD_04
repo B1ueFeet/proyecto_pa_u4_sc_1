@@ -94,7 +94,13 @@ sPRING TIENE su propio framework THYMELEAS 		permite crear templates para vistas
 
 
 
-
+los request pueden ser de diferentes tipos
+VERBOS HTTP / METODOS HTTP 
+		-> GET 		-> obtener/ consultar recursos
+		-> POST		-> Insertar/ crear 
+		-> PUT		-> Actualizar
+		-> PATCH	-> Actualizar Parcial
+		-> DELETE	-> Eliminar
 
 
 
